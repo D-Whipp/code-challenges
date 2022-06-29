@@ -24,6 +24,7 @@
 // USE JavaScript classes
 // USE getter method
 
+// My WORK
 // class Book {
 //   constructor(title, authorFirst, authorLast, isbn, numCopies) {
 //     (this.title = title),
