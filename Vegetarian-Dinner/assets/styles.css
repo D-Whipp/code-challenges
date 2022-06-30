@@ -1,0 +1,93 @@
+/* Google Fonts */
+/* font-family: 'Rubik Moonrocks', cursive;
+font-family: 'Titan One', cursive;
+font-family: 'Yellowtail', cursive; */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #6e6e6e;
+}
+
+.container {
+    background-color: #f0f8ff;
+    height: 100%;
+    width: 80%;
+    margin: 3rem auto;
+    text-align: center;
+}
+
+.container h1 {
+    background-color: #6e6e6e;
+    color: #f0f8ff;
+    font-family: 'Yellowtail', cursive;
+    font-size: 3rem;
+    margin: 3rem 0;
+}
+
+.instructions {
+    border-right: 0.2rem solid #f0f8ff;
+    float: left;
+    width: 40%;
+    padding-right: 1rem;
+}
+
+.instructions h2 {
+    border-bottom: 0.2rem solid #f0f8ff;
+    color: #f0f8ff;
+    font-family: 'Yellowtail', cursive;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.7rem;
+}
+
+.instructions p {
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: right;
+    line-height: 1.4;
+    margin-bottom: 0.5rem;
+}
+
+.instructions p:nth-child(odd) {
+    color: #f0f8ff;
+}
+
+.menu-list {
+    border-left: 0.2rem solid #f0f8ff;
+    float: right;
+    padding-left: 1rem;
+    width: 40%;
+}
+
+.menu-list h2 {
+    border-bottom: 0.2rem solid #f0f8ff;
+    color: #f0f8ff;
+    font-family: 'Yellowtail', cursive;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.7rem; 
+}
+
+.menu-list ul li {
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: left;
+    line-height: 1.4;
+    margin-bottom: 0.5rem;
+    list-style: none;
+}
+
+.menu-list ul li:nth-child(odd) {
+    color: #f0f8ff;
+}
+
+.vegetarian-menu {
+    clear: both;
+    margin-top: 1rem;
+    height: 4rem;
+}
