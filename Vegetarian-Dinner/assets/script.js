@@ -44,21 +44,15 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
   let vegetarianChoices = [];
 
-  // let vegetarianItemNames = vegetarianItems.filter(item => item.name)
   let vegetarianItemNames = vegetarianItems.forEach((item) =>
     vegetarianChoices.push(item.name)
   );
 
-  const pTag = document.createElement('p');
-  const node = document.createTextNode(vegetarianChoices);
-  pTag.appendChild(node);
-  //   const spliceArray = vegetarianItemNames.splice(' ');
-  const element = document.querySelector('.vegetarian-menu');
-  element.appendChild(pTag);
+  const ulTag = document.querySelector('#vegetarian-menu_ul');
 
-  console.log(node);
-  //   console.log(spliceArray);
-
-  console.log(vegetarianItems);
-  console.log(vegetarianChoices);
+  vegetarianChoices.forEach((item) => {
+    const liTag = document.createElement('li');
+    liTag.innerText = item;
+    ulTag.append(liTag);
+  });
 });

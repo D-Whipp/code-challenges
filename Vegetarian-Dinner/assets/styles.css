@@ -88,14 +88,12 @@ body {
 }
 
 .vegetarian-menu {
-    /* clear: both; */
     background-color: #f0f8ff;
     border-radius: 5px;
     margin: 1rem auto;
     width: 28rem;
-    height: 9rem;
+    height: 10rem;
     position: fixed;
-    /* bottom: 0; */
     top: 33rem;
     left: 50%;
     transform: translateX(-50%);
@@ -108,8 +106,10 @@ body {
     padding: 0.7rem 0;
 }
 
-.vegetarian-menu p {
-    font-size: 1.3rem;
-    line-height: 1.4;
-    padding: 1rem;
+.vegetarian-menu_ul {
+    color: #6e6e6e;
+    font-weight: bold;
+    font-size: 1.2rem;
+    list-style: none;
+    padding: 0.7rem 0;
 }
